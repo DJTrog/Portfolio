@@ -6,6 +6,7 @@
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
  <link href="styles/normalize.css" rel="stylesheet" >
  <link href="styles/styles.css" rel="stylesheet" >
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker"
     rel="stylesheet">
@@ -19,30 +20,19 @@
         <p class="logo">DJ</p>
      </div>
 
-  <div class="nav-container">
-    <nav class="navbar navbar-expand-sm navbar-light bg-faded">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-<!-- Brand -->
-    <a id="top"
-    <!-- Links -->
-    <div class="collapse navbar-collapse" id="nav-content">
-      <ul class="navbar-nav">
-         <li class="nav-item">
-            <a class="nav-link" href="#top">Home</a>
-         </li>
-         <li class="nav-item active">
-            <a class="nav-link" href="#topic2">Skills and Stuff<span class="sr-only">(current)</span></a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#topic3">Contact Information</a>
-         </li>
+     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+     <ul class="navbar-nav mx-auto">
+       <li class="nav-item active text-center">
+         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item text-center">
+         <a class="nav-link" href="#topic2">Skills and Stuff</a>
+       </li>
+       <li class="nav-item text-center">
+         <a class="nav-link" href="#topic3">Contact</a>
+       </li>
       </ul>
     </nav>
-    </div>
   </div>
 
 <div class="container-fluid">
@@ -55,7 +45,7 @@
               <div class="col-lg-12">
                   <p class="h1">Banner Heading</p>
                   <p class="body-text">This is where I ramble on about my awesome skills and whatnot. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <a href="#" class="btn btn-success btn-lg">Contact</a>
+                  <!--<a href="#" class="btn btn-success btn-lg">Contact</a>!-->
               </div>
           </div>
       </div>
@@ -96,24 +86,41 @@
 
 <!--begin footer section-->
 <div class="footer">
+  <p class="footer-heading"><a id="topic3">Contact Information</a></p>
+  <hr>
   <div class="col-md-12">
     <div class="row">
-      <div class="col-md-4">
-        <p></p>
+      <div class="col-md-3 col-sm-12">
+        <div class="social-media-container">
+            <a class="social-media-link" href="https://www.facebook.com" target="_blank">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-media-container">
+            <a class="social-media-link" href="https://www.twitter.com" target="_blank">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p class="footer-heading"><a id="topic3">Contact Information</a></p>
 
-          <p class="footer-text">dj@websitesdonecheap.com</p>
-          <p class="footer-text">559.123.4567</p>
-          <p class="footer-text">&copy; 2017 All Rights Reserved</p>
-
-      </div>
-      <div class="col-md-4">
-        <p></p>
-      </div>
-    </div>
+     <div class="col-md-6 col-sm-12">
+       <div class="contact-container">
+         <p class="footer-text">dj@websitesdonecheap.com</p>
+         <p class="footer-text">559.123.4567</p>
+         <p class="footer-text">&copy; 2017 All Rights Reserved</p>
+       </div>
+     </div>
+     <div class="col-md-3 col-sm-12">
+        <div class="social-media-container">
+            <a class="social-media-link" href="https://www.facebook.com" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-media-container">
+            <a class="social-media-link" href="https://www.twitter.com" target="_blank">
+            <i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
+        </div>
+     </div>
   </div>
+</div>
+</div>
 </div>
 <!--end footer section-->
 
