@@ -1,40 +1,44 @@
 .logo-container {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   /**position: top 0 right 50%;**/
   border-radius: 75px;
   border: none;
   margin-bottom: 20px;
   text-align: center;
-  color: green;
-  background: #dddddd;
+  color: #e8f5e9;
+  background: #4caf50;
   margin: 0 auto;
 }
 .logo {
   font-family: 'Permanent Marker';
-  font-size: 4em;
+  font-size: 5em;
   text-align: center;
 
 }
 .nav-container {
   height: 50px;
-  width 60%;
+  width 100%;
   text-align: center;
 }
 .li {
-  display: block;
+  display: inline;
+}
+.nav-item {
+  display: inline;
 }
 .nav-link {
   font-family: 'Open sans', sans-serif;
   font-size: 20px;
-  color: green;
+  color: #4caf50;
   margin: 0 auto;
+  display: inline;
 }
 .jumbotron-billboard .img {
     margin-bottom: 0px;
-    opacity: 1.0;
+    opacity: 0.2;
     color: #black;
-    background: url('../images/console.jpg') center center;
+    background: url('../images/hero-pic2.jpg') center center;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -52,14 +56,21 @@
  position:relative;
   z-index:2;
 }
+.jumbo-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  color: black;
+  font-weight: 800
+}
 .body-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  color: #fff;
+  color: gray;
+  font-weight: 800;
 }
 .h1 {
   font-family:'Permanent Marker', cursive; sans-serif;
-  color: #ffffff;
+  color: #4caf50;
   font-size: 4em;
   text-align: center;
   }
@@ -76,7 +87,7 @@
   text-align: center;
   }
   .col {
-    background-color: #effbc6;
+    background-color: #e8f5e9;
     /**height: 250px;**/
     /**padding: 10px;**/
     /**border: 3px solid #ffffff;**/
@@ -97,6 +108,7 @@
     font-family:'Abril Fatface', cursive; serif;
     font-size: 1em
     text-align:center;
+    color: green;
   }
   .button {
       background-color: rgba(91, 114, 9, 0.5); /* Green */
@@ -121,7 +133,7 @@
   .footer {
     height: 200px;
     width: 100%;
-    background: #dddddd;
+    background: #4caf50;
   }
   .footer-heading {
     font-family:'Permanent Marker', cursive; sans-serif;
@@ -133,6 +145,17 @@
     font-size: .75em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+    color: #e8f5e9;
+  }
+  .email-text {
+    text-align: center;
+    font-size: .75em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #e8f5e9;
+  }
+  .emal-text:hover {
+    font: #ffffff;
   }
   .icon-container {
     height: auto;
@@ -150,16 +173,15 @@
 }
 .social-media-link {
     text-decoration: none;
-    font-size: 36px;
+    font-size: 45px;
     color: #ffffff;
 }
 .social-media-link:hover {
-    color: green;
+    color: #c8e6c9;
     text-decoration: underline;
 }
 .contact-container {
   text-align:left;
-  
 }
   .ul {
     text-align: center;
@@ -169,3 +191,9 @@
     font-size: 1em;
     text-align: center;
   }
+a:link {
+  color: #e8f5e9;
+}
+a:hover {
+  color: #c8e6c9;
+}
