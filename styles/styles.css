@@ -21,22 +21,26 @@
   width 100%;
   text-align: center;
 }
+.ul {
+  display: inline-block;
+  margin-right: 15px;
+}
 .li {
-  display: inline;
+  display: inline-block;
 }
 .nav-item {
-  display: inline;
+  display: inline-block;
 }
 .nav-link {
   font-family: 'Open sans', sans-serif;
   font-size: 20px;
   color: #4caf50;
   margin: 0 auto;
-  display: inline;
+  display: inline-block;
 }
 .jumbotron-billboard .img {
     margin-bottom: 0px;
-    opacity: 0.2;
+    opacity: 1.0;
     color: #black;
     background: url('../images/hero-pic2.jpg') center center;
     width: 100%;
@@ -59,8 +63,9 @@
 .jumbo-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
-  color: black;
+  color: #4caf50;
   font-weight: 800
+
 }
 .body-text {
   font-family: 'Open Sans', sans-serif;
@@ -108,7 +113,8 @@
     font-family:'Abril Fatface', cursive; serif;
     font-size: 1em
     text-align:center;
-    color: green;
+    color: #4caf50;
+    margin-top: 15px;
   }
   .button {
       background-color: rgba(91, 114, 9, 0.5); /* Green */
@@ -131,7 +137,6 @@
       height: 125px;
     }
   .footer {
-    height: 200px;
     width: 100%;
     background: #4caf50;
   }
@@ -139,6 +144,7 @@
     font-family:'Permanent Marker', cursive; sans-serif;
     font-size: 2em;
     text-align: center;
+    color: #ffffff;
   }
   .footer-text {
     text-align: center;
@@ -196,4 +202,7 @@ a:link {
 }
 a:hover {
   color: #c8e6c9;
+}
+.scrollLink {
+
 }
