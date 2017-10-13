@@ -7,7 +7,7 @@ $( document ).ready(function() {
   $('.scrollLink2').click( function() {
        $('html, body').animate({
             scrollTop: $('#topic2').offset().top
-       }, 1000);
+       }, 600);
   });
 
 });
