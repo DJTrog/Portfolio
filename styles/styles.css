@@ -1,10 +1,10 @@
 .logo-container {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   /**position: top 0 right 50%;**/
-  border-radius: 75px;
+  border-radius: 100px;
   border: none;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   text-align: center;
   color: #4fb3bf;
   background: #00838f;
@@ -12,8 +12,19 @@
 }
 .logo {
   font-family: 'Permanent Marker';
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.logo-sub {
+  font-family: 'Open sans', sans-serif;
+  color: #e8f5e9;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 125px;
+
 }
 .nav-container {
   height: 50px;
@@ -115,9 +126,6 @@ h2{
   font-size: 2em;
   text-align: center;
   }
-}
-
-}
 .jumbo-text {
   font-family:'Abril Fatface', cursive; serif;
   color: #35353;
@@ -129,14 +137,12 @@ h2{
     /**height: 250px;**/
     padding: 20px;
     /**border: 10px solid #ffffff;**/
-
   }
   .row {
     height: auto;
     width: 100%;
     margin: 0px 0px;
     padding: 0px;
-
   }
   .heading {
     width: 100%;
@@ -226,10 +232,10 @@ h2{
 .contact-container {
   text-align:left;
 }
-  .ul {
+.ul {
     text-align: center;
   }
-  .list-item {
+.list-item {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: center;
