@@ -1,26 +1,25 @@
 .logo-container {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   /**position: top 0 right 50%;**/
-  border-radius: 100px;
+  border-radius: 75px;
   border: none;
-  margin: 20px 0px;
   text-align: center;
   color: #4fb3bf;
   background: #00838f;
-  margin: 0 auto;
+  margin: 30px auto 10px auto;
 }
 .logo {
   font-family: 'Permanent Marker';
-  font-size: 6em;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
+  font-size: 8em;
+  height: 150px;
+  line-height: 150px;
+  white-space: nowrap;
 }
 .logo-sub {
-  font-family: 'Open sans', sans-serif;
+  font-family:'Abril Fatface', cursive; serif;
   color: #e8f5e9;
-  font-size: 1em;
+  font-size: .75em;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 125px;
